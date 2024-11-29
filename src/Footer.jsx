@@ -88,10 +88,10 @@ const Footer = () => {
             <div className="col-md-6">
               <h5 className="text-2xl font-bold mb-4">Contact Information</h5>
               <p className="mb-2">
-                <strong>Name:</strong> Harshit Goyal
+                <strong>Name:</strong> Saurav Kumar Meena
               </p>
               <p className="mb-2">
-                <a href="mailto:harshitgoyal0810@gmail.com" className="hover:underline text-light">
+                <a href="mailto:sauravng1844@gmail.com" className="hover:underline text-light">
                   <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
                   harshitgoyal0810@gmail.com
                 </a>
@@ -99,13 +99,13 @@ const Footer = () => {
               <p className="mb-2">
                 <a href="https://www.linkedin.com/in/harshit-goyal-b2aaa6214" className="hover:underline text-light">
                   <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
-                  Harshit Goyal
+                  saurav kumar meena
                 </a>
               </p>
               <p className="mb-2">
-                <a href="https://github.com/Harshu0810" className="hover:underline text-light">
+                <a href="https://github.com/sauravjorwal" className="hover:underline text-light">
                   <FontAwesomeIcon icon={faGithub} className="mr-2" />
-                  Harshit Goyal
+                  Saurav kumar Meena
                 </a>
               </p>
             </div>
@@ -166,7 +166,7 @@ const Footer = () => {
         </div>
         <div className="text-center mt-6">
           <p className="text-sm font-light">
-            © 2024 <span className="font-semibold">Harshit Goyal </span>. All rights reserved.
+            © 2024 <span className="font-semibold">Saurav Kumar Meena </span>. All rights reserved.
           </p>
         </div>
       </footer>
