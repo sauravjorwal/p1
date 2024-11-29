@@ -60,13 +60,13 @@ export default function Navber() {
           </ul>
 
           <div className="navbar-contact d-flex align-items-center">
-            <a className="contact-link mx-2" href="mailto:harshitgoyal0810@gmail.com">
+            <a className="contact-link mx-2" href="mailto:sauravng1844@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <a className="contact-link mx-2" href="https://www.linkedin.com/in/harshit-goyal-b2aaa6214" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a className="contact-link mx-2" href="https://github.com/Harshu0810" target="_blank" rel="noopener noreferrer">
+            <a className="contact-link mx-2" href="https://github.com/sauravjorwal" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
