@@ -1,0 +1,413 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.5s, color 0.5s;
+  background-color: white;
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  
+  padding: 1px 15px 20upx 15px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.navbar .nav-link:hover {
+  color: lightgray !important; /* Optional: color on hover */
+}
+
+
+.footer-link {
+  color: #ffc107; 
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #ffcd39; /* Change link color on hover */
+}
+
+.form-label {
+  margin-bottom: 0.5rem; /* Adjust label margin */
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #282c34;
+  color: white;
+  
+}
+
+.navbar h1 {
+  margin: 10px;
+}
+
+.container {
+  padding: 20px;
+   
+  
+}
+
+.converter-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.converter {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  /* min-width: 400px; */
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgb(249, 30, 30);
+}
+
+.converter h2 {
+  margin-bottom: 20px;
+  color: #007bff; /* Set header color for both CGPA and SGPA sections */
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.note {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.note p {
+  margin: 0;
+}
+
+.dark-mode .navbar {
+  background-color: #333;
+}
+
+.dark-mode .converter {
+  background-color: #444;
+  color: #fff;
+}
+.dark-mode .converter h2{
+  color: #ffa500;
+  
+}
+
+.dark-mode .note {
+  background-color: #444;
+  border-color: #777;
+}
+
+.dark-mode a {
+  color: #ffa500;
+}
+
+.dark-mode button {
+  background-color: #ffa500;
+}
+
+.dark-mode button:hover {
+  background-color: #cc8400;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #666;
+  color: #fff;
+}
+
+/* Submit button styles */
+.btn-light {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-light:hover {
+  background-color: #0056b3;
+}
+
+.dark-mode .btn-light {
+  background-color: #ffa500;
+  color: black;
+}
+
+.dark-mode .btn-light:hover {
+  background-color: #cc8400;
+}
+
+/* src/App.css */
+/* Existing styles */
+
+.converter-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px; /* Add some spacing above the converter */
+}
+
+/* Optional: Add more styles as needed to match your design */
+.clear-button {
+  padding: 10px 20px;
+  /* background-color: #dc3545; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  color: whitesmoke;
+}
+
+
+
+
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.contact-name {
+  color: white;
+  margin-right: 15px;
+}
+
+.contact-link {
+  color: white;
+  margin-left: 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #ddd;
+}
+
+/* src/App.css */
+/* Existing styles */
+
+/* Styles for the footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+footer h5 {
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer .form-label {
+  color: white;
+}
+
+footer .btn-light {
+  
+  color: white;
+  border: none;
+}
+
+footer .btn-light:hover {
+  background-color: #0056b3;
+}
+
+footer .contact-info {
+  display: flex;
+  align-items: center;
+}
+
+footer .contact-info svg {
+  margin-right: 10px;
+}
+.calculate-button {
+  background-color: #007bff; /* Choose your desired button color */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3; /* Darker shade of the main color for hover effect */
+}
+
+.calculate-button {
+  background-color: #007bff; /* Default button color */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3; /* Darker shade of the main color for hover effect */
+}
+
+/* Navbar with scrolling text */
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  background: #FFFFFF;
+  /* font-weight: 500; */
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: large;
+  color: #ffa500;
+  animation: scroll-text 20s linear infinite, color-change 5s linear infinite;
+}
+
+@keyframes color-change {
+  0% { color: #ffa500; }
+  30% { color: #ff4500; }
+  60% { color: #ff6347; }
+  100% { color: #ffa500; }
+}
+
+/* Keyframes for scrolling text */
+@keyframes scroll-text {
+  from {
+    transform: translateX(60%);
+  }
+  to {
+    transform: translateX(-60%);
+  }
+}
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 500px) {
+  .contact-link { /* Assuming GitHub, LinkedIn, and email have the class 'contact-link' */
+    display: none; /* Hide the elements on mobile */
+  }
+}
+
+/* src/App.css */
+.image-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #333; /* Adjust color and thickness as needed */
+  padding: 5px; /* Optional: adds space between image and border */
+}
+
+/* App.css */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #007bff;
+  transform-origin: 0%;
+  z-index: 100;
+}
+
+
+
+

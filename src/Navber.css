@@ -1,0 +1,132 @@
+/* Navber.css */
+
+/* Navbar styling */
+.navbar {
+  position: relative;
+}
+
+.navbar .navbar-brand .navbar-logo {
+  height: 32px;
+  width: auto;
+}
+
+/* Center the icons in the navbar */
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: auto;
+}
+
+.color-changer {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar toggler (hamburger icon) */
+.navbar-toggler {
+
+  border: none;
+  outline: none;
+}
+
+/* Navbar links style */
+.navbar-nav .nav-link {
+  color: hsl(0, 24%, 94%);
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffad16;
+}
+
+/* Social icon styles */
+.navbar-contact .contact-link {
+  color: #ffffff;
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-contact .contact-link:hover {
+  color: #ffad16;
+}
+
+/* Auth container styles */
+.auth-container .username {
+  color: #6edd8c;
+  font-weight: 400;
+}
+
+/* Navber.css */
+.modal-content {
+  background-color: #343a40; 
+  color: #ffffff; /* White text for better contrast */
+}
+
+
+/* Navbar when expanded on mobile */
+@media (max-width: 500px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  
+
+  .navbar .navbar-collapse {
+    background-color: #333;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 1rem;
+    border-radius: 0.6rem;
+  }
+
+  
+
+  .navbar-icons {
+    justify-content: flex-end;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    z-index: 1050;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .auth-container .username {
+    display: none;
+  }
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensures the logout button centers across full width */
+
+  }
+  .auth-container .btn {
+    color: #ffffff;
+    background-color: #007bff;   /* Blue for light mode */
+    border-color: #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-container .btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode .auth-container .btn {
+    color: #ffffff;
+    background-color: #ffad16;   /* Lighter blue for dark mode */
+    border-color: #ffad16;
+  }
+  
+  body.dark-mode .auth-container .btn:hover {
+    background-color: #ffad16;   /* Slightly darker blue on hover */
+    border-color: #ffad16;
+  }
+
+}
+
